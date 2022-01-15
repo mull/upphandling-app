@@ -39,6 +39,7 @@
 		195C6C9AD1B911D0DB4A16E3 /* Pods-Upphandling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upphandling.debug.xcconfig"; path = "Target Support Files/Pods-Upphandling/Pods-Upphandling.debug.xcconfig"; sourceTree = "<group>"; };
 		67398679B44AA75E6D9E20C8 /* Pods-Upphandling-UpphandlingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upphandling-UpphandlingTests.debug.xcconfig"; path = "Target Support Files/Pods-Upphandling-UpphandlingTests/Pods-Upphandling-UpphandlingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		71E39291A2743989FBC23A30 /* Pods-Upphandling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upphandling.release.xcconfig"; path = "Target Support Files/Pods-Upphandling/Pods-Upphandling.release.xcconfig"; sourceTree = "<group>"; };
+		7DED11F827935E89009F5121 /* Upphandling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Upphandling.entitlements; path = Upphandling/Upphandling.entitlements; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Upphandling/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F483F46865789C4E060482 /* libPods-Upphandling-UpphandlingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Upphandling-UpphandlingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* Upphandling */ = {
 			isa = PBXGroup;
 			children = (
+				7DED11F827935E89009F5121 /* Upphandling.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -447,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Upphandling/Upphandling.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76DV673YHX;
 				ENABLE_BITCODE = NO;
@@ -474,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Upphandling/Upphandling.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76DV673YHX;
 				INFOPLIST_FILE = Upphandling/Info.plist;
